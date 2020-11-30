@@ -59,7 +59,15 @@ border-radius: 5px;
     font-weight: 700;
 }
 
-
+.oculto{
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin-left: -1000px;
+    padding: 0;
+    border: 0;
+  }
+  
 .contenedor{
     height: 1600px;
 }
