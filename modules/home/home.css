@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+
+a:focus{
+    border: 2px solid #083A5D;
+}
+
+.a_logo{
+    position: absolute;
+    left: 15%;
+    top: 22%;
+}
+  
+
+.logo{
+    width: 250px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: #02665C;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    left: 27%;
+    bottom: 25%;
+}
+
+/* NAVBAR MENU*/
+.menu{
+    position: fixed;
+    bottom: 0;
+    width: 360px;
+    height: 70px;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    background-color: white;
+    z-index: 3;
+}
+
+.lista_menu {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}    
+
+.items_menu{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-items: center;
+    width: 90%;
+}
+
+.link_menu{ 
+    text-decoration: none;
+    color: #6A6A6A;
+}
+.icono_menu{
+    height: 20px;
+}
+
+.texto_menu{
+    margin-top: 3px;
+}
+
+.texto_menu_seleccionado{
+    margin-top: 3px;
+    border-bottom: 3px solid #083A5D;
+    width: 40px;
+    margin-left: 25px;
+    font-weight: 600;
+    color: #083A5D; 
+}

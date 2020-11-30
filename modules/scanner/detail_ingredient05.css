@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+
+a:focus{
+    border: 2px solid #083A5D;
+}
+
+/* BARRA SUPERIOR*/
+.barra_superior{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: #083A5D;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    top: 0;
+}
+
+.boton_volver{
+    width: 20px;
+}
+
+.div_boton_volver{
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    z-index: 4;
+}
+
+.a_boton_volver{ 
+    padding: 7px;
+}
+
+.a_boton_volver{ 
+padding-top: 9px;
+padding-bottom: 1px;
+padding-right: 3px;
+padding-left: 3px;
+border-radius: 5px;
+}
+
+.a_boton_volver:focus{
+    border: 2px solid white;
+}
+
+
+.titulo_barra_superior{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 6px;
+    left: 70px;
+}
+/* BARRA SUPERIOR*/
+
+h1,h2,h3,span,p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.texto_p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #373A3C;
+    position: absolute;
+    top: 230px;
+    left: 30px;
+    line-height: 24px;
+    width: 84%;
+}
+
+.detalle{ 
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: #373A3C;
+    position: absolute;
+    top: 170px;
+    left: 30px;
+    line-height: 24px;
+    width: 84%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #acacac88;
+    border-top: 1px solid #acacac88;
+}
+
+span{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    color: #373A3C;
+    position: absolute;
+    top: 480px;
+    left: 60px;
+}
+
+.icono_apto{
+    width: 20px;
+    position: absolute;
+    top: 477px;
+    left: 30px;
+}
+
+.titulo{
+    font-size: 24px;
+    font-weight: 500;
+    color: #373A3C;
+    position: absolute;
+    top: 94px;
+    left: 70px;
+}
+
+.hoja{
+    width: 25px;
+    position: absolute;
+    top: 132px;
+    left: 30px;
+}
+
+/* NAVBAR MENU*/
+.menu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    background-color: white;
+    z-index: 3;
+}
+
+.lista_menu {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}    
+
+.items_menu{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-items: center;
+    width: 90%;
+}
+
+.link_menu{ 
+    text-decoration: none;
+    color: #6A6A6A;
+}
+.icono_menu{
+    height: 20px;
+}
+
+.texto_menu{
+    margin-top: 3px;
+}
+
+.texto_menu_seleccionado{
+    margin-top: 3px;
+    border-bottom: 3px solid #083A5D;
+    width: 57px;
+    margin-left: 17px;
+    font-weight: 600;
+    color: #083A5D; 
+} 

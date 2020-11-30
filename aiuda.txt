@@ -1,0 +1,67 @@
+en el head van linkeadas todas las cosas de bootstrap y despues las hojas de css 
+primero global
+despues header
+despues footer
+despues el .css del modulo que corresponda
+
+usar siempre clases
+nav bar e imagenes
+
+NAVBAR
+POSITION: FIXED
+
+otras posiciones relative y absolute 
+
+la relativa responde al contenedor padre 
+(si tengo un div solo el body es el padre)
+
+div padre
+div hijo
+para que se mueva dentro del padre
+le damos absolute al hijo y relative al padre
+
+z-index le da altura en eje z (superposicion)
+
+------------
+limpiar estilos de navegador
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+
+
+BORDE BOTON VOLVER 
+
+<div class="div_boton_volver">
+
+.boton_flash{ 
+width: 12px;
+}
+
+.boton_volver{
+    width: 20px;
+}
+
+.div_boton_volver{
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    z-index: 4;
+}
+
+.a_boton_volver{ 
+    padding: 7px;
+}
+
+.a_boton_volver{ 
+padding-top: 9px;
+padding-bottom: 1px;
+padding-right: 3px;
+padding-left: 3px;
+border-radius: 5px;
+}
+    

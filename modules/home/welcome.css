@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+a:focus{
+    border: 2px solid #083A5D;
+}
+
+div{
+    background: #E7ECEF;
+    width: 360px;
+    height: 640px;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+a{
+    position: absolute;
+}
+
+.a_declaracion{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #083A5D;
+    position: absolute;
+    bottom: 50px;
+    left: 95px;
+}
+
+
+.a_terminos{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #083A5D;
+    position: absolute;
+    bottom: 30px;
+    left: 108px;
+}
+.div_logo{
+    position: absolute;
+    width: 200px;
+    top: 180px;
+    left: 80px;
+    height: 200px;
+}

@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+}
+
+a:focus{
+    border: 2px solid #083A5D;
+}
+
+.barra_superior{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    background-color: #083A5D;
+    box-shadow: 0px 2px 4px rgba(180, 172, 172, 0.25);
+    z-index: 1;
+    top: 0;
+}
+
+.boton_volver{
+    width: 20px;
+}
+
+.div_boton_volver{
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    z-index: 4;
+}
+
+.a_boton_volver{ 
+padding-top: 9px;
+padding-bottom: 1px;
+padding-right: 3px;
+padding-left: 3px;
+border-radius: 5px;
+}
+
+.a_boton_volver:focus{
+    border: 2px solid white;
+}
+
+.titulo_barra_superior{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 6px;
+    left: 70px;
+}
+.barra_h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 6px;
+    left: 70px;
+    font-weight: 700;
+}
+
+.div_contenedor{
+    height: 1600px;
+}
+
+.foto_receta{
+    position: absolute;
+    left: 27px;
+    top: 125px;
+    border-radius: 5px;
+}
+
+.hoja{ 
+    position: absolute;
+    left: 31px;
+    top: 90px;
+    width: 18px;
+}
+h2{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #373A3C;
+    position: absolute;
+    left: 58px;
+    top: 77px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 254px;
+    left: 27px;
+    color: #373A3C;
+}
+
+.h3_costado{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 254px;
+    left: 227px;
+    color: #373A3C;
+}
+
+.h3_abajo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    top: 274px;
+    left: 27px;
+    color: #373A3C;
+    padding-right:215px;
+    padding-top: 20px ;
+    border-top: 1px solid #9e9fa096;
+
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 324px;
+    left: 27px;
+    color: #373A3C;
+}
+
+
+.lista_receta01{    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 364px;
+    left: 37px;
+    color: #373A3C;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.h4_02{ 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 450px;
+    left: 27px;
+    color: #373A3C;
+    }
+
+
+.lista_receta02{    
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        position: absolute;
+        top: 490px;
+        left: 37px;
+        color: #373A3C;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+.h3_03{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    top: 660px;
+    left: 27px;
+    color: #373A3C;
+    }
+
+.h4_03{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 690px;
+    left: 27px;
+    color: #373A3C;
+}
+
+.lista_receta03{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 730px;
+    left: 37px;
+    color: #373A3C;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    width: 250px;
+    line-height: 19px;
+}
+
+.h4_04{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 960px;
+    left: 27px;
+    color: #373A3C;
+}
+
+.lista_receta04{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 1000px;
+    left: 37px;
+    color: #373A3C;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    width: 250px;
+    line-height: 19px;
+}
+
+.h4_05{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 1220px;
+    left: 27px;
+    color: #373A3C;
+}
+
+.lista_receta05{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 1270px;
+    left: 37px;
+    color: #373A3C;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    width: 250px;
+    line-height: 19px;
+}
+
+.li_angosto{
+    width: 240px;
+}
+
+
+/* NAVBAR MENU*/
+.menu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    background-color: white;
+    z-index: 3;
+}
+
+.lista_menu {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}    
+
+.items_menu{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    justify-items: center;
+    width: 90%;
+}
+
+.link_menu{ 
+    text-decoration: none;
+    color: #6A6A6A;
+}
+.icono_menu{
+    height: 20px;
+}
+
+.texto_menu{
+    margin-top: 3px;
+}
+
+.texto_menu_seleccionado{
+    margin-top: 3px;
+    border-bottom: 3px solid #083A5D;
+    width: 57px;
+    margin-left: 17px;
+    font-weight: 600;
+    color: #083A5D; 
+} 
